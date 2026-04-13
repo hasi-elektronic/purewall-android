@@ -27,10 +27,12 @@
       "bundleIdentifier": "de.hasielectronic.purewall",
       "supportsTablet": false
     },
+    "owner": "hasi-elektronic",
     "extra": {
       "eas": {
-        "projectId": "purewall-hasi"
+        "projectId": "26cd85d4-3c37-430e-9138-693930221385"
       }
-    }
+    },
+    "sdkVersion": "51.0.0"
   }
 }
