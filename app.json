@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Purewall",
+    "slug": "purewall",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0c10"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0c10"
+      },
+      "package": "de.hasielectronic.purewall",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "de.hasielectronic.purewall",
+      "supportsTablet": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "purewall-hasi"
+      }
+    }
+  }
+}
